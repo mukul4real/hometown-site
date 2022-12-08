@@ -1,0 +1,93 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+#hero{
+    background-image: url("images/pta.gif");
+    height: 350px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto auto;
+    object-fit: cover;
+    flex-direction: column;
+}
+.hero-h1{
+    text-align: center;
+    background: #081c15;
+    margin-top: 100px;
+    width: fit-content;
+    display: inline;
+    border-radius: 20px;
+    padding: 10px;
+    color: #95D5B2;
+}
+.hero-h3{
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    display: inline;
+    color: #95D5B2;
+}
+.heroh{
+    text-align: center;
+    margin-bottom: 100px;
+    background: #081c15;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 5px 30px;
+    width: 400px;
+}
+#details{
+    background: #D8F3DC;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 20px;
+    object-fit: cover;
+}
+.detail-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.desc-h4{
+    padding: 0 40px;
+}
+.desc-p{
+    padding: 0 40px 20px 40px;
+}
+.foot{
+    background: #B7E4C7;
+    width: 500px;
+    padding: 120px 150px 120px 150px;
+    margin: 0 auto;
+}
+.pta{
+    margin-top: 0px;
+    padding-top: 40px;
+    color: #081C15;
+}
+.foot-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    object-fit: cover;
+}
+.bord{
+    background: #EBC9DF;
+    border-bottom: solid black 2px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: -50px;
+    flex-direction: row;
+}
