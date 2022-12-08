@@ -56,10 +56,11 @@ body{
     justify-content: space-around;
 }
 .desc-h4{
-    font-size: small;
+    font-size:medium;
 }
 .desc-p{
     padding: 0 20px 40px 20px;
+    font-size:medium;
 }
 .foot{
     background: #B7E4C7;
